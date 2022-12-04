@@ -88,9 +88,7 @@ body {
 .feeds-show-1 {
 	border: 2px solid black;
 	border-radius: 12px;
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .feeds-banner {
@@ -102,9 +100,43 @@ body {
 }
 
 .feeds-banner-left-side {
-	/* width: 30%; */
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	gap: 10px;
+}
+
+.feeds-banner-three-dots {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.feeds-big-image {
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.likes-and-comments-container {
+	padding: 10px;
+}
+
+.likes-and-comments-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.likes-and-comments-section-left-side i {
+	margin-right: 10px;
+}
+
+.feeds-section-text {
+	margin-bottom: 10px;
+}
+
+.feeds-buttom-banner {
+	display: flex;
+	gap: 10px;
+	border-top: 2px solid black;
+	padding: 15px;
 }
