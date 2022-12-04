@@ -161,6 +161,7 @@ i {
 	font-weight: bold;
 	font-size: 14px;
 	margin-bottom: 5px;
+	/* line-height: 1.5; */
 }
 
 .ashed-texts {
@@ -172,7 +173,7 @@ i {
 }
 
 .post {
-	color: #bddfff;
+	color: #73dad4;
 }
 /* feeds section end */
 
@@ -187,7 +188,7 @@ i {
 
 .my-profile {
 	display: flex;
-	text-align: center;
+	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 20px;
 }
@@ -209,6 +210,10 @@ i {
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
+}
+
+a {
+	text-decoration: none;
 }
 
 /* profile section end */
