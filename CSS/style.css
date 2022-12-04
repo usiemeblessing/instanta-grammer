@@ -24,8 +24,9 @@ body {
 
 .left-side {
 	width: 20%;
-	background-color: yellow;
+	/* background-color: yellow; */
 	padding-left: 25px;
+	border-right: 1px solid #959392;
 	height: 100vh;
 	/* position: fixed; */
 }
@@ -41,7 +42,7 @@ body {
 /* right side start */
 .right-side {
 	width: 80%;
-	background-color: gray;
+	/* background-color: gray; */
 	display: flex;
 	align-items: stretch;
 	justify-content: center;
@@ -50,7 +51,7 @@ body {
 /* feed section start */
 .feeds-section {
 	width: 40%;
-	background-color: purple;
+	/* background-color: purple; */
 }
 
 .carousel-container {
@@ -120,11 +121,11 @@ body {
 	padding: 10px;
 }
 
-.likes-and-comments-section {
+.likes-and-comments-icons-section {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .likes-and-comments-section-left-side i {
 	margin-right: 10px;
@@ -134,9 +135,43 @@ body {
 	margin-bottom: 10px;
 }
 
+.hours-ago {
+	text-transform: uppercase;
+	font-size: 11px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 .feeds-buttom-banner {
 	display: flex;
-	gap: 10px;
-	border-top: 2px solid black;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid #959392;
 	padding: 15px;
+}
+
+.smiley-add-comment {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+i {
+	font-size: 22px;
+}
+
+.boldened-text {
+	font-weight: bold;
+}
+
+.ashed-texts {
+	color: #222;
+}
+
+.comments-links {
+	text-decoration: none;
+}
+
+.post {
+	color: #bddfff;
 }
