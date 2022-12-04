@@ -8,7 +8,7 @@
 
 body {
 	font-family: sans-serif;
-	/* font-size: 16px; */
+	font-size: 14px;
 }
 
 .container {
@@ -39,6 +39,7 @@ body {
 	justify-content: flex-start;
 	gap: 20px;
 	margin-bottom: 40px;
+	font-size: 16px;
 }
 
 /* right side start */
@@ -158,10 +159,12 @@ i {
 
 .boldened-text {
 	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 5px;
 }
 
 .ashed-texts {
-	color: #222;
+	color: #959392;
 }
 
 .comments-links {
@@ -186,10 +189,26 @@ i {
 	display: flex;
 	text-align: center;
 	justify-content: space-between;
+	margin-bottom: 20px;
 }
 
 .my-profile p {
 	text-align: left;
+}
+
+.suggestions-for-you,
+.suggestion {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.suggestion-left-side {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
 }
 
 /* profile section end */
