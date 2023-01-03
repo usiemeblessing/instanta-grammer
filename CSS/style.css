@@ -221,7 +221,7 @@ ul {
 ul li a,
 a {
 	text-decoration: none;
-	color: #959392;
+	color: #b3b2b1;
 }
 .footer-links {
 	display: flex;
@@ -231,7 +231,7 @@ a {
 
 .copyright {
 	margin-top: 30px;
-	color: #959392;
+	color: #b3b2b1;
 	text-transform: uppercase;
 }
 
