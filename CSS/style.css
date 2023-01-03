@@ -104,8 +104,9 @@ body {
 	gap: 10px;
 }
 
-.feeds-banner-three-dots {
-	font-size: 28px;
+.w-6 {
+	width: 30px;
+	height: 30px;
 	font-weight: bold;
 }
 
@@ -212,8 +213,28 @@ i {
 	gap: 20px;
 }
 
+/* footer part start */
+ul {
+	list-style-type: none;
+}
+
+ul li a,
 a {
 	text-decoration: none;
+	color: #959392;
 }
+.footer-links {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 5px;
+}
+
+.copyright {
+	margin-top: 30px;
+	color: #959392;
+	text-transform: uppercase;
+}
+
+/* footer part end */
 
 /* profile section end */
